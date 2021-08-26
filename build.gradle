@@ -33,7 +33,7 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    implementation project(':common:data_utility')
+    implementation project(':data_utility')
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
     api 'com.squareup.retrofit2:retrofit:2.9.0'
